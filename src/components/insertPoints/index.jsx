@@ -77,6 +77,7 @@ const InsertPoints = ({ student }) => {
 
   const isDone = () => {
     setPointsAdded(true);
+    setValue("");
     if (done) {
       switch (student.house) {
         case "Gryffindor":
