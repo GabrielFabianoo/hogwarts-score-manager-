@@ -35,6 +35,7 @@ const StudentsList = () => {
 
   useEffect(() => {
     setStudentPagesFiltered(createPage(filteredStudents, 5));
+    setPage(0);
   }, [filteredStudents, value]);
 
   return (
